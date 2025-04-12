@@ -1,14 +1,14 @@
 
 import './App.css'
+import Navbar from "./Components/Navbar/Navbar.jsx";
+
 
 function App() {
 
 
   return (
     <>
-
-      <h1 className="te">Vite + React</h1>
-
+        <Navbar></Navbar>
     </>
   )
 }
