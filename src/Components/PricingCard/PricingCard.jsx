@@ -20,6 +20,7 @@ const PricingCard = ({pricing}) => {
                 key={index}
                 feature={feature}></PricingFeature>)}
         </div>
+        <button className="btn w-full mt-4">Buy Now</button>
     </div>);
 };
 
