@@ -2,8 +2,9 @@
 import './App.css'
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import {Suspense} from "react";
-import loading from "daisyui/components/loading/index.js";
+
 import PricingOption from "./Components/PricingOption/PricingOptions.jsx";
+import ResultChart from "./Components/ResultChart/ResultChart.jsx";
 
 const pricingPromise = fetch('pricingData.json')
 .then(res => res.json())
@@ -18,6 +19,7 @@ function App() {
         }>
             <PricingOption pricingPromise={pricingPromise} />
         </Suspense>
+        <ResultChart></ResultChart>
     </>
   )
 }
