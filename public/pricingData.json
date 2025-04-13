@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Plan",
+    "price": "$29/month",
+    "info": "Perfect for beginners starting their fitness journey.",
+    "features": [
+      "Access to gym equipment",
+      "1 personal training session/month",
+      "Locker room access",
+      "Free Wi-Fi"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Standard Plan",
+    "price": "$49/month",
+    "info": "Great for regular gym-goers looking for variety.",
+    "features": [
+      "Everything in Basic",
+      "Unlimited group classes",
+      "3 personal training sessions/month",
+      "Nutrition guide included"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Plan",
+    "price": "$79/month",
+    "info": "Best for fitness enthusiasts and advanced training.",
+    "features": [
+      "Everything in Standard",
+      "Unlimited personal training",
+      "Customized workout plan",
+      "Access to VIP lounge & sauna"
+    ]
+  }
+]
